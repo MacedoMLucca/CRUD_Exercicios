@@ -1,0 +1,59 @@
+@charset "ISO-8859-1";
+
+
+body{
+	background-color: #fff
+}
+
+h1{
+	text-align: center 
+}
+hr{
+	width: 45%;
+	text-align: left;
+}
+.acoes{
+ 	padding: 10px 10px 10px 10px;
+}
+.acoes .up{
+	background-color: #1680e9;
+	border:none;
+
+}
+.acoes .del{
+	background-color: #fa2b05;
+	border:none;
+	
+}
+table,td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 0px 5px 0px 5px;
+}
+th{
+ border: 1px solid black;
+  border-collapse: collapse;
+  padding: 15px 15px 15px 15px;
+}
+.centro{
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
+.tabela{
+	display: flex;
+	justify-content:flex-start;
+	flex-direction: column;
+	gap: 20px;
+	
+}
+.btnAdd{
+	display:flex;
+	justify-content:flex-end;
+}
+.btnDes{
+	background-color: #9dd3ff;
+	border: 1px solid #fff;
+	width:150px;
+	height: 30px;
+}

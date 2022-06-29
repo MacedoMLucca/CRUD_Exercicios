@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="@{/css/style.css}">
+<script type="text/javascript" th:src="@{/js/action.js}"></script>
+
+</head>
+<body>
+    <h2>Style Heading H2</h2>
+    <p>
+        This is text on which we want to apply <strong>very special</strong> styling.
+    </p>
+    
+    <button type="button" th:onclick="showAlert()">Show Alert</button>
+    
+</body>
+</html>
